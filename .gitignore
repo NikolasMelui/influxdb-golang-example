@@ -2,4 +2,4 @@
 .DS_Store
 /lib
 /bin
-.env
+build/**/*.env
