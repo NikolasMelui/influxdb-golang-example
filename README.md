@@ -33,6 +33,17 @@ Cleanup the `./bin` directory:
 
 ### Run influxdb in the Docker container
 
+Create the `.env` file with credentials:
+
+```
+INFLUXDB_USERNAME=username
+INFLUXDB_PASSWORD=password
+INFLUXDB_TOKEN=your_super_secret_token
+INFLUXDB_URL=http://localhost:8086
+```
+
+Run the container:
+
 ```commandline
-docker-compose --env-file test_influxdb.env up
+docker-compose --env-file .env up
 ```
