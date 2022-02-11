@@ -7,16 +7,22 @@
 
 ## Run the project
 
-Compile:
+Compile project:
 
 ```commandline
   make compile
 ```
 
-Run:
+Run project:
 
 ```commandline
   make run
+```
+
+Run tests:
+
+```commandline
+  make test
 ```
 
 Cleanup the `./bin` directory:

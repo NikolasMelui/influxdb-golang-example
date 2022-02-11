@@ -15,3 +15,7 @@ compile:
 
 run: compile
 	@env ${APP_BIN}
+
+.PHONY: test
+test:
+	@env go test ./internal/*
